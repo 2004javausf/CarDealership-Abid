@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c" name="Oracle Database 12c" id="078177EA-D342-CE17-7ABB-05A8E5A4C763" siteID="3FD120B5-9F4E-6278-D5E2-746D192C8319" siteName="Oracle Database 12c" siteType="11">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:19 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</StorageDesignOraclev12c>

@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97F9B50D-8080-1309-D3F9-9EFD6B075BEF" schemaObject="B9B05EF6-03EE-105B-6C93-9571D648C932" name="CAR">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>CAR</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:29 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAR_ID" id="7FE9DF4A-FFBA-82F4-3150-06E81A35D562">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_ID</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="CAR_MAKE" id="5BF41D06-56BE-B805-FE48-D2291BAFF99F">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_MAKE</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_MODEL" id="6B835D04-EF02-1353-0646-7F50D90944F9">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_MODEL</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_YEAR" id="F824E4B6-5BD1-D192-7471-BD4D1C4286C2">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_YEAR</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_COLOR" id="B99B844C-D1F0-3D92-4C63-5AE2838EBD64">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_COLOR</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_STATUS" id="481E37FA-BF8F-17BB-F23F-D4C4D8D86611">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_STATUS</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_MILEAGE" id="F7C3A0E6-4ED4-65ED-E7D0-B156C9F0BC32">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_MILEAGE</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_PRICE" id="CC542BC6-BB74-EC53-B707-CB25BAB27A13">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_PRICE</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_OFFERED_ID" id="D57880B6-468B-2D36-7650-5A5A097F19D0">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_OFFERED_ID</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAB6E80A-5948-19A1-D602-6FF38F368533" referredColumn="48206F3A-91FA-81E5-47D3-9D3124429623"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="134A3A8E-BBF3-CD2A-57AA-A2DDE96B1688" schemaObject="B9B05EF6-03EE-105B-6C93-9571D648C932" name="CAR_PK">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>SYS_C005237</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:31 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FE9DF4A-FFBA-82F4-3150-06E81A35D562"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75EA39FC-CBB7-1A10-78B4-4CB14A62D83D" name="FK_CAR_CAR_OFFERED">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:34 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D57880B6-468B-2D36-7650-5A5A097F19D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

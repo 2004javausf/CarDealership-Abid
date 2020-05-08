@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A27C638-5272-61D0-589B-DCFB13E7EEF6" schemaObject="B9B05EF6-03EE-105B-6C93-9571D648C932" name="CAR_OFFERED">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>CAR_OFFERED</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:29 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAR_OFFERED_ID" id="48206F3A-91FA-81E5-47D3-9D3124429623">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR_OFFERED</sourceObjSchema>
+<sourceObjName>CAR_OFFERED_ID</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="OFFERED_PRICE" id="F859B343-EF7D-9598-B701-97065CB4FD70">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR_OFFERED</sourceObjSchema>
+<sourceObjName>OFFERED_PRICE</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFER_STATUS" id="C0FF7C33-3491-70B0-BD1A-A6E4C318B2E1">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR_OFFERED</sourceObjSchema>
+<sourceObjName>OFFER_STATUS</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_STATUS" id="B0F30A3C-2B9B-03A4-9ABE-614CC2678B33">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR_OFFERED</sourceObjSchema>
+<sourceObjName>CAR_STATUS</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA5515D8-4459-F503-8AFE-EFF1BEFE2BA5" schemaObject="B9B05EF6-03EE-105B-6C93-9571D648C932" name="CAR_OFFERED_PK">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>SYS_C005239</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:32 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48206F3A-91FA-81E5-47D3-9D3124429623"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

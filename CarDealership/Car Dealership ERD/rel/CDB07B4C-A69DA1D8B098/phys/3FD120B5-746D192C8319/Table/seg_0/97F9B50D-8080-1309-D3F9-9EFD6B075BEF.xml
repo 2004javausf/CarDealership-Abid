@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CAR" directorySegmentName="seg_0" id="97F9B50D-8080-1309-D3F9-9EFD6B075BEF">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:29 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<schemaObject>B9B05EF6-03EE-105B-6C93-9571D648C932</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AB55A09C-A515-2E20-0828-833D35A970BA</segment>
+<tableSpace>06D1A72C-29F1-3B04-89F3-0677EDC023B5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CAR_STATUS" id="481E37FA-BF8F-17BB-F23F-D4C4D8D86611">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_MAKE" id="5BF41D06-56BE-B805-FE48-D2291BAFF99F">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_MODEL" id="6B835D04-EF02-1353-0646-7F50D90944F9">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_ID" id="7FE9DF4A-FFBA-82F4-3150-06E81A35D562">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="CAR_COLOR" id="B99B844C-D1F0-3D92-4C63-5AE2838EBD64">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_PRICE" id="CC542BC6-BB74-EC53-B707-CB25BAB27A13">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_OFFERED_ID" id="D57880B6-468B-2D36-7650-5A5A097F19D0">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_MILEAGE" id="F7C3A0E6-4ED4-65ED-E7D0-B156C9F0BC32">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_YEAR" id="F824E4B6-5BD1-D192-7471-BD4D1C4286C2">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CAR_CAR_OFFERED" id="75EA39FC-CBB7-1A10-78B4-4CB14A62D83D">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:34 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CAR_PK" id="134A3A8E-BBF3-CD2A-57AA-A2DDE96B1688">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:32 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<schemaObject>B9B05EF6-03EE-105B-6C93-9571D648C932</schemaObject>
+<segment>914B100C-ACDC-B815-99D2-A1AB5817FC7A</segment>
+<tableSpace>06D1A72C-29F1-3B04-89F3-0677EDC023B5</tableSpace>
+<indexSegment>914B100C-ACDC-B815-99D2-A1AB5817FC7A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CUSTOMER" directorySegmentName="seg_0" id="95EF9AFA-1C7F-A768-EDDD-C2DC3C2FD1D2">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:29 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<schemaObject>B9B05EF6-03EE-105B-6C93-9571D648C932</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AB55A09C-A515-2E20-0828-833D35A970BA</segment>
+<tableSpace>06D1A72C-29F1-3B04-89F3-0677EDC023B5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USER_INFO_ID" id="328C7616-997B-DC1B-8690-03AF9185B835">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="63D80963-E6EB-12E1-F4CF-1C0E3B5C147D">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_OFFERED_ID" id="77BEF6B7-49B4-8399-F860-06F73E2E5436">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREDIT_SCORE" id="77CFA599-13FE-5CEE-75AA-526E41883207">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE_NUMBER" id="7E600FF0-C5C8-94FD-FA8B-AC1261E22B9D">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ID" id="B685B4B9-33CB-0358-EDD9-377D47B196B3">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="F68E127F-42E0-34DE-39A8-B3CA7C36F247">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CUSTOMER_USER_INFO" id="27A232AB-23BD-B917-2E0E-D0173F2F10D5">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:34 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CUSTOMER_CAR_OFFERED" id="4E4B9A5A-3503-EBD1-D910-7D3C331F93A4">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:34 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_PK" id="A3D622D8-B41D-FACF-2C30-A58E956E75E2">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:33 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<schemaObject>B9B05EF6-03EE-105B-6C93-9571D648C932</schemaObject>
+<segment>914B100C-ACDC-B815-99D2-A1AB5817FC7A</segment>
+<tableSpace>06D1A72C-29F1-3B04-89F3-0677EDC023B5</tableSpace>
+<indexSegment>914B100C-ACDC-B815-99D2-A1AB5817FC7A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

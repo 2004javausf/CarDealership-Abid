@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33D43728-15CE-2099-AC10-B9D63EB4E39E" schemaObject="B9B05EF6-03EE-105B-6C93-9571D648C932" name="EMPLOYEE">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>EMPLOYEE</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:29 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="FB7B1743-386F-CC78-3A02-53A5C2AD32B1">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="FIRST_NAME" id="08B8310F-B3C6-94BF-9E15-EA87813020B1">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="EECA1228-153E-710E-5074-1317583D4397">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESIGNATION" id="27FE60D6-48F5-1A06-33AA-56790B6E4C36">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>DESIGNATION</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_NUMBER" id="7E9AEEC8-A399-24BB-4072-3AAD59387714">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>PHONE_NUMBER</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_INFO_ID" id="CDF8385E-74EF-3EF2-0FF7-2D2354CCB230">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>USER_INFO_ID</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E3C0E90-0909-189D-1F3F-3201106E2F08" referredColumn="931C688B-3B3B-89C6-E93E-4C699203A9BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F24B7C85-2932-12F7-0D3E-65E7E8B3AC92" schemaObject="B9B05EF6-03EE-105B-6C93-9571D648C932" name="EMPLOYEE_PK">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>SYS_C005235</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:32 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7B1743-386F-CC78-3A02-53A5C2AD32B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B24F904A-E102-9480-1FF9-0917C1BA8793" name="FK_EMPLOYEE_USER_INFO">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:34 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDF8385E-74EF-3EF2-0FF7-2D2354CCB230"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

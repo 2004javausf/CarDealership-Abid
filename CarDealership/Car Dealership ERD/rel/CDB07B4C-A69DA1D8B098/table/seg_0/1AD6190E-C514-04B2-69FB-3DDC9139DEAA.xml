@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AD6190E-C514-04B2-69FB-3DDC9139DEAA" schemaObject="B9B05EF6-03EE-105B-6C93-9571D648C932" name="CAR_PAYMENT">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>CAR_PAYMENT</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:29 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAR_PAYMENT_ID" id="5F75D465-C588-ED06-DABB-D7D9869BB76A">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR_PAYMENT</sourceObjSchema>
+<sourceObjName>CAR_PAYMENT_ID</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="DOWNPAYMENT" id="AD802A6D-4E79-79BE-84CF-73B307314427">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR_PAYMENT</sourceObjSchema>
+<sourceObjName>DOWNPAYMENT</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAN_AMOUNT" id="01F90253-B8ED-0BE4-3323-B59C72850ECC">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR_PAYMENT</sourceObjSchema>
+<sourceObjName>LOAN_AMOUNT</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_OFFERED_ID" id="5C63B3DB-F4A0-75FB-0D61-794522E3F8AA">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>CAR_PAYMENT</sourceObjSchema>
+<sourceObjName>CAR_OFFERED_ID</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4131B5DF-88C6-06BA-23C5-F69DB52DD6CD" referredColumn="48206F3A-91FA-81E5-47D3-9D3124429623"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74FD160F-3C84-7701-F040-B46A74E3B12A" schemaObject="B9B05EF6-03EE-105B-6C93-9571D648C932" name="CAR_PAYMENT_PK">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>SYS_C005241</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:32 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F75D465-C588-ED06-DABB-D7D9869BB76A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C31497F4-397D-89B3-3D3A-FF71C6E83276" name="FK_CAR_PAYMENT_CAR_OFFERED">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:34 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C63B3DB-F4A0-75FB-0D61-794522E3F8AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

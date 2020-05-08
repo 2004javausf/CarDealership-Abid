@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MONTHLY_PAYMENT" directorySegmentName="seg_0" id="0AD3705E-5D73-C1CA-DAA1-4A7E518E65BF">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:29 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<schemaObject>B9B05EF6-03EE-105B-6C93-9571D648C932</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AB55A09C-A515-2E20-0828-833D35A970BA</segment>
+<tableSpace>06D1A72C-29F1-3B04-89F3-0677EDC023B5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CAR_PAYMENT_ID" id="33EE5FC4-43BF-FC06-5B8D-44C6D0F42820">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMBER_OF_MONTH" id="65E4FFC8-39F0-43CE-8ABA-E95AD3CEABB8">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTHLY_PAYMENT_ID" id="A8ED135F-8F2D-EC66-A5BD-2F138489A28E">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="INTEREST_RATE" id="AC73EE2A-99CF-9C02-E301-9AC9C9170FF0">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTHLY_FEE" id="D2E63F65-0171-0CF5-36CE-20452966C78F">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_MONTHLY_PAYMENT_CAR_PAYMENT" id="2403D777-9769-2E36-D635-19D97CF03BA3">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:34 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MONTHLY_PAYMENT_PK" id="53317A40-D4FA-3FFC-30DF-7FBFAF6B0D45">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:33 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<schemaObject>B9B05EF6-03EE-105B-6C93-9571D648C932</schemaObject>
+<segment>914B100C-ACDC-B815-99D2-A1AB5817FC7A</segment>
+<tableSpace>06D1A72C-29F1-3B04-89F3-0677EDC023B5</tableSpace>
+<indexSegment>914B100C-ACDC-B815-99D2-A1AB5817FC7A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

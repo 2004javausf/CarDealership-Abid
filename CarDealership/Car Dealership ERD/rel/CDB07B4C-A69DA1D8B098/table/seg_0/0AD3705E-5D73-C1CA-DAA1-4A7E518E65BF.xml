@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AD3705E-5D73-C1CA-DAA1-4A7E518E65BF" schemaObject="B9B05EF6-03EE-105B-6C93-9571D648C932" name="MONTHLY_PAYMENT">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>MONTHLY_PAYMENT</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:29 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MONTHLY_PAYMENT_ID" id="A8ED135F-8F2D-EC66-A5BD-2F138489A28E">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>MONTHLY_PAYMENT</sourceObjSchema>
+<sourceObjName>MONTHLY_PAYMENT_ID</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="INTEREST_RATE" id="AC73EE2A-99CF-9C02-E301-9AC9C9170FF0">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>MONTHLY_PAYMENT</sourceObjSchema>
+<sourceObjName>INTEREST_RATE</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMBER_OF_MONTH" id="65E4FFC8-39F0-43CE-8ABA-E95AD3CEABB8">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>MONTHLY_PAYMENT</sourceObjSchema>
+<sourceObjName>NUMBER_OF_MONTH</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTHLY_FEE" id="D2E63F65-0171-0CF5-36CE-20452966C78F">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>MONTHLY_PAYMENT</sourceObjSchema>
+<sourceObjName>MONTHLY_FEE</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_PAYMENT_ID" id="33EE5FC4-43BF-FC06-5B8D-44C6D0F42820">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>MONTHLY_PAYMENT</sourceObjSchema>
+<sourceObjName>CAR_PAYMENT_ID</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:30 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE59FB8C-E950-5990-15D6-08485D58449F" referredColumn="5F75D465-C588-ED06-DABB-D7D9869BB76A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53317A40-D4FA-3FFC-30DF-7FBFAF6B0D45" schemaObject="B9B05EF6-03EE-105B-6C93-9571D648C932" name="MONTHLY_PAYMENT_PK">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>SYS_C005243</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:32 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8ED135F-8F2D-EC66-A5BD-2F138489A28E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2403D777-9769-2E36-D635-19D97CF03BA3" name="FK_MONTHLY_PAYMENT_CAR_PAYMENT">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:34 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33EE5FC4-43BF-FC06-5B8D-44C6D0F42820"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

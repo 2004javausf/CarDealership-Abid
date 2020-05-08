@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Car Dealership ERD" id="18343A63-1F96-4C72-C42A-8B8C3F4859C7" version="3.5">
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:06:56 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>18343A63-1F96-4C72-C42A-8B8C3F4859C7</designId>
+</OSDM_Design>

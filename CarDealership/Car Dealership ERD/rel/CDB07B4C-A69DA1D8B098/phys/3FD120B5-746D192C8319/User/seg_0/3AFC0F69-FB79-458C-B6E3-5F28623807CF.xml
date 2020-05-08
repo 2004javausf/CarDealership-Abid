@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="ABID" directorySegmentName="seg_0" id="3AFC0F69-FB79-458C-B6E3-5F28623807CF">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjName>ABID</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:28 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<schemaObject>B9B05EF6-03EE-105B-6C93-9571D648C932</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE59FB8C-E950-5990-15D6-08485D58449F" containerWithKeyObject="0AD3705E-5D73-C1CA-DAA1-4A7E518E65BF" localFKIndex="2403D777-9769-2E36-D635-19D97CF03BA3" name="FK_MONTHLY_PAYMENT_CAR_PAYMENT">
+<sourceConnName>cardealership</sourceConnName>
+<sourceObjSchema>ABID</sourceObjSchema>
+<sourceObjName>FK_MONTHLY_PAYMENT_CAR_PAYMENT</sourceObjName>
+<createdBy>kawkababid</createdBy>
+<createdTime>2020-05-08 04:07:34 UTC</createdTime>
+<ownerDesignName>Car Dealership ERD</ownerDesignName>
+<referredTableLongName>ABID.CAR_PAYMENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1AD6190E-C514-04B2-69FB-3DDC9139DEAA</referredTableID>
+<keyObject>74FD160F-3C84-7701-F040-B46A74E3B12A</keyObject>
+<referredKeyID>74FD160F-3C84-7701-F040-B46A74E3B12A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CAR_PAYMENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
