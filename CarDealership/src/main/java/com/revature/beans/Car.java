@@ -2,6 +2,7 @@ package com.revature.beans;
 
 public class Car {
 	
+	private int carID;
 	private String carMake;
 	private String carModel;
 	private int carYear;
@@ -9,15 +10,17 @@ public class Car {
 	private String carStatus;
 	private long carMileage;
 	private long carPrice;
+	private int carOfferedID;
 	
 	public Car() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Car(String carMake, String carModel, int carYear, String carColor, String carStatus, long carMileage,
-			long carPrice) {
+	public Car(int carID, String carMake, String carModel, int carYear, String carColor, String carStatus,
+			long carMileage, long carPrice, int carOfferedID) {
 		super();
+		this.carID = carID;
 		this.carMake = carMake;
 		this.carModel = carModel;
 		this.carYear = carYear;
@@ -25,6 +28,15 @@ public class Car {
 		this.carStatus = carStatus;
 		this.carMileage = carMileage;
 		this.carPrice = carPrice;
+		this.carOfferedID = carOfferedID;
+	}
+
+	public int getCarID() {
+		return carID;
+	}
+
+	public void setCarID(int carID) {
+		this.carID = carID;
 	}
 
 	public String getCarMake() {
@@ -83,11 +95,21 @@ public class Car {
 		this.carPrice = carPrice;
 	}
 
+	public int getCarOfferedID() {
+		return carOfferedID;
+	}
+
+	public void setCarOfferedID(int carOfferedID) {
+		this.carOfferedID = carOfferedID;
+	}
+
 	@Override
 	public String toString() {
-		return "Car [carMake=" + carMake + ", carModel=" + carModel + ", carYear=" + carYear + ", carColor=" + carColor
-				+ ", carStatus=" + carStatus + ", carMileage=" + carMileage + ", carPrice=" + carPrice + "]";
+		return "carID=" + carID + ", carMake=" + carMake + ", carModel=" + carModel + ", carYear=" + carYear
+				+ ", carColor=" + carColor + ", carStatus=" + carStatus + ", carMileage=" + carMileage + ", carPrice="
+				+ carPrice + "";
 	}
+	
 	
 	
 	

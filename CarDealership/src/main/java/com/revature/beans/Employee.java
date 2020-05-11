@@ -2,29 +2,35 @@ package com.revature.beans;
 
 public class Employee {
 	
+	private int employeeID;
 	private String firstName; 
 	private String lastName;
 	private String designation;
-	private CharSequence phoneNumber;
-	private String email;
-	private String userName;
-	private String passWord;
+	private String phoneNumber;
+	private int userInfoID;
 	
 	public Employee() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Employee(String firstName, String lastName, String designation, CharSequence phoneNumber, String email,
-			String userName, String passWord) {
+	public Employee(int employeeID, String firstName, String lastName, String designation, String phoneNumber,
+			int userInfoID) {
 		super();
+		this.employeeID = employeeID;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.designation = designation;
 		this.phoneNumber = phoneNumber;
-		this.email = email;
-		this.userName = userName;
-		this.passWord = passWord;
+		this.userInfoID = userInfoID;
+	}
+
+	public int getEmployeeID() {
+		return employeeID;
+	}
+
+	public void setEmployeeID(int employeeID) {
+		this.employeeID = employeeID;
 	}
 
 	public String getFirstName() {
@@ -55,43 +61,23 @@ public class Employee {
 		return phoneNumber;
 	}
 
-	public void setPhoneNumber(CharSequence phoneNumber) {
+	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
 
-	public String getEmail() {
-		return email;
+	public int getUserInfoID() {
+		return userInfoID;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public String getUserName() {
-		return userName;
-	}
-
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
-
-	public String getPassWord() {
-		return passWord;
-	}
-
-	public void setPassWord(String passWord) {
-		this.passWord = passWord;
+	public void setUserInfoID(int userInfoID) {
+		this.userInfoID = userInfoID;
 	}
 
 	@Override
 	public String toString() {
-		return "Employee [firstName=" + firstName + ", lastName=" + lastName + ", designation=" + designation
-				+ ", phoneNumber=" + phoneNumber + ", email=" + email + ", userName=" + userName + ", passWord="
-				+ passWord + "]";
+		return "Employee [employeeID=" + employeeID + ", firstName=" + firstName + ", lastName=" + lastName
+				+ ", designation=" + designation + ", phoneNumber=" + phoneNumber + ", userInfoID=" + userInfoID + "]";
 	}
 	
 	
-	
-	
-
 }
