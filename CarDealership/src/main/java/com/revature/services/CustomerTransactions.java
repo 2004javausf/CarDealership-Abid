@@ -3,10 +3,12 @@ package com.revature.services;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+import com.revature.beans.UserInfo;
 import com.revature.daoimpl.CarDAOImpl;
 import com.revature.daoimpl.CustomerDAOImpl;
 import com.revature.daoimpl.UserInfoDAOImpl;
 import com.revature.driver.Menu;
+import com.revature.util.LogThis;
 
 public class CustomerTransactions {
 	static Scanner st = new Scanner(System.in);
@@ -54,7 +56,7 @@ public class CustomerTransactions {
 			String passWord = st.nextLine();
 			String userType = "Customer";
 			System.out.println("Thank you for your registration!");
-		
+			LogThis.LogIt("info", userName + " was successfully created");
 		try {
 			customerDAOImpl.insertCustomers(firstName, lastName, phoneNumber, creditScore, email, userName, passWord, userType);
 		} catch (SQLException e) {
@@ -80,7 +82,7 @@ public class CustomerTransactions {
 				}
 					break;
 				case 2: 
-					//Make an Offer
+					makeOffer();
 					break;
 				case 3: 
 					// view the own car
@@ -100,13 +102,33 @@ public class CustomerTransactions {
 					customerTranscation();
 					break;		
 			}
-		}while(menuSelection != 4);
-		
-		
-	}
-	public static void main(String[] args) {
-		customerTranscation();
-		
+		}while(menuSelection != 4);		
 	}
 	
+	public static void makeOffer() {
+		CarDAOImpl carDAOImpl = new CarDAOImpl();
+		CustomerDAOImpl customerDAOImpl = new CustomerDAOImpl();
+		System.out.println("Welcome to DreamWorld Auto Inventory! Thank for your time\n");
+		try {
+			carDAOImpl.getCarList();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.print("\nPlease enter the ID of the car you want make offer:  ");
+		int carId = in.nextInt();
+		System.out.print("How much do you want to make offer for your preffered vehicle:  ");
+		long offerPrice = in.nextLong();
+		System.out.print("Thank you so much. Please now enter your Customer ID: ");
+		int customerId = in.nextInt();
+		try {
+			customerDAOImpl.makeOffer(carId, customerId, offerPrice);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("You offered has been process successfully");	
+		LogThis.LogIt( "info", " You successfully made offer for " + "carID " + carId);
+	}
 }

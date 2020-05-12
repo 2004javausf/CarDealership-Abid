@@ -53,8 +53,8 @@ public class CarOffered {
 
 	@Override
 	public String toString() {
-		return "CarOffered [carOfferedID=" + carOfferedID + ", offeredPrice=" + offeredPrice + ", offerStatus="
-				+ offerStatus + ", carStatus=" + carStatus + "]";
+		return "carOfferedID=" + carOfferedID + ", offeredPrice=" + offeredPrice + ", offerStatus="
+				+ offerStatus + "";
 	}
 	
 	

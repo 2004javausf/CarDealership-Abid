@@ -46,7 +46,7 @@ public class UserInfoDAOImpl implements UserInfoDAO{
 		try {
 			List<UserInfo> user = userInfo.getUserInfoList();
 			for(int i = 0; i < user.size(); i++) {
-				if((userName.equals(user.get(i).getUserName())) && (passWord.equals(user.get(i).getPassWord()))) {
+				if((userName.equals(user.get(i).getUserName())) && (passWord.equals(user.get(i).getPassWord())) && userType.equals(user.get(i).getUserType())) {
 				userNameSucess = true;
 				}
 			}
@@ -128,7 +128,10 @@ public class UserInfoDAOImpl implements UserInfoDAO{
 		}
 		
 	}
+	
 
+	
+	
 	
 	
 	

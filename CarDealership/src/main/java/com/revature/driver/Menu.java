@@ -1,6 +1,9 @@
 package com.revature.driver;
 
+import java.sql.SQLException;
 import java.util.Scanner;
+
+import com.revature.daoimpl.CarDAOImpl;
 import com.revature.daoimpl.UserInfoDAOImpl;
 import com.revature.services.CustomerTransactions;
 import com.revature.services.EmployeeTransactions;
@@ -76,6 +79,7 @@ public class Menu {
 	public static void employeeMenu() {
 		String userName;
 		String passWord;
+		CarDAOImpl carDAOImpl = new CarDAOImpl();
 		String userType;
 		do {
 		System.out.println("\nPlease Login to your account");
@@ -87,27 +91,36 @@ public class Menu {
 		} while(UserInfoDAOImpl.checklogin(userName, passWord, userType) == false);
 		int menuSelection = 0;
 		do {
-			System.out.print("\nPlease Enter " + "\n1. Add vehicle to the inventory" + "\n2. Remove a Vehicle from the Inventory" 
-											+ "\n3. Accept or Reject a Pending Offer" + "\n4. View all payments" + "\n5. Log Out and Return to the Main Menu"
-											+ "\n6. Exit" + "\nPlease select your choice: ");
+			System.out.print("\nPlease Enter " + "\n1. View the Inventory List" + "\n2. Add vehicle to the inventory" + "\n3. Remove a Vehicle from the Inventory" 
+											+ "\n4. Accept or Reject a Pending Offer" + "\n5. View all payments" + "\n6. Log Out and Return to the Main Menu"
+											+ "\n7. Exit" + "\nPlease select your choice: ");
 			menuSelection = in.nextInt();
 			switch(menuSelection) {
-			case 1:
-				EmployeeTransactions.insertCar();
+			case 1: 
+				try {
+					carDAOImpl.getCarList();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				System.out.println("What do you like to do next? ");
 				break;
 			case 2:
-				// Delete Car Method
+				EmployeeTransactions.insertCar();
 				break;
-			case 3: 
-				//Accept or Reject Method
+			case 3:
+				EmployeeTransactions.deleteCar();
 				break;
 			case 4: 
+				//Accept or Reject Method
+				break;
+			case 5: 
 				//View all Payment methods 
 				break;
-			case 5:
+			case 6:
 				startMenu();
 				break;
-			case 6:
+			case 7:
 				System.out.println("Thank you for visitng us! Good Bye");
 				System.exit(0);
 			default:
@@ -115,7 +128,7 @@ public class Menu {
 				break;	
 			}
 			
-		} while(menuSelection != 6);
+		} while(menuSelection !=7);
 		
 	}
 	

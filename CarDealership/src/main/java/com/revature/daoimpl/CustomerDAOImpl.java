@@ -29,6 +29,16 @@ public class CustomerDAOImpl implements CustomerDAO {
 		stmt.execute();
 	}
 	
+	public void makeOffer(int carId, int customerId,  long offerPrice) throws SQLException {
+		Connection conn = cf.getConnection();
+		String sql = " { CALL CUSTOMEROFFER(?, ?, ?)";
+		CallableStatement stmt = conn.prepareCall(sql); 
+		stmt.setInt(1, carId);
+		stmt.setInt(2, customerId);
+		stmt.setLong(3, offerPrice);
+		stmt.execute();
+	}
+	
 	public static boolean validateCreditScore(String creditscore) {
 		try {
 			Integer.parseInt(creditscore);
@@ -43,7 +53,6 @@ public class CustomerDAOImpl implements CustomerDAO {
 	
 	@Override
 	public List<Customer> getCustomerList() throws SQLException {
-		// TODO Auto-generated method stub
 		return null;
 	}
 	
